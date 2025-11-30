@@ -2,6 +2,6 @@ import "./Header.css"
 
 export default function Modificaciones(){
     return(
-        <h1>Modificaciones</h1>
+        <h1 className="titulo">Modificaciones</h1>
     )
 }

@@ -4,13 +4,11 @@ import Actividades from "./Actividades";
 import Codigo from "./Codigo";
 import Sistema from "./Sistema";
 import Modificaciones from "./Modificaciones";
-import Home from "./Home";
 
 export default function HeaderOptions() {
     return (
         <BrowserRouter>
     <nav id="navMenu">
-        <Link to="/home" className="link">Home</Link>
         <Link to="/actividades" className="link">Actividades</Link> {" "}
         <Link to="/codigo" className="link" >Codigo</Link> {" "}
         <Link to="/sistema" className="link">Sistema</Link>
@@ -19,7 +17,6 @@ export default function HeaderOptions() {
     </nav>
 
     <Routes>
-        <Route path="home" element={<Home/>}></Route>
         <Route path="actividades" element={<Actividades/>}></Route>
         <Route path="codigo" element={<Codigo/>}></Route>
         <Route path="sistema" element={<Sistema/>}></Route>
