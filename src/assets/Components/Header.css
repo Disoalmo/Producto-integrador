@@ -1,0 +1,34 @@
+
+#cabecera {
+    width: 100%;
+     height: 50px;
+     border: black solid 1px;
+     background: rgb(16, 74, 94);
+     position: fixed;
+     top: 1px;
+     z-index: 2;
+     align-content: center;
+     text-align: center;
+}
+
+#navMenu {
+    width: 800px;
+    border: solid black 1px;
+    position: absolute;
+    top: 25px;
+    margin: auto;
+    left: 350px;
+    z-index: 2;
+
+}
+
+.link {
+color: white;
+padding-left: 80px;
+
+}
+
+h1{
+    text-align: center;
+    
+}
